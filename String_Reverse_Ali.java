@@ -25,20 +25,4 @@ Ex: Reverse("ABCD"); ==> DCBA
 
 
 
-
-
-    /*
-     we want to be able to get the data which has reverse version. therefore, we create a varialbe
-               String reverse= "";  and whatever the data we got it should be added to this reverse. therefore:
-               reverse += str.charAt(i)  // avaJ
-               problem here is: we want a code that can use many times. what if user give more that 4 digit? what i is going to be?
-               how do we find the last index number in that case? therefore:
-               for (int i =str.length()-1; i>= 0; i--)
-
-               so i = whatever string "" has putten here, calculate the lenght first and then minus 1 to get the last index number
-
-               so we can reverse any string that has given to us using this code: starting from last index to index 0. that's the logic
-     */
-
-
 }
