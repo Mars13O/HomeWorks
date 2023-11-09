@@ -1,4 +1,4 @@
-package Homework.week6;
+package Homework_Ali.week6;
 
 /*
 Array -- Find Maximum

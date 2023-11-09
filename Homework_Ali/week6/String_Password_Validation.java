@@ -1,4 +1,4 @@
-package Homework.week6;
+package Homework_Ali.week6;
 
 public class String_Password_Validation {
 
@@ -32,8 +32,8 @@ requirements:
         boolean hasSpecialChar = false;
         boolean hasDigit = false;
 
-        for(int i = 0; i < password.length(); i++){
-            char ch = password.charAt(i);
+        for(int i = 0; i < password.length(); i++){ // i = index number of password
+            char ch = password.charAt(i); // get us each character of the password
             if(Character.isUpperCase(ch)){ // Character rapper class
                 hasUpperCase=true;
 
