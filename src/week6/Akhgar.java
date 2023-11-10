@@ -45,6 +45,7 @@ public class Akhgar {
         return sumOfDigit;
     }
 
+    // ------ Find Max Value in an Array ------
     public static int maxValue(int[] aryValues){
 
         int max = aryValues[0];
