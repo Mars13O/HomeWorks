@@ -17,6 +17,16 @@ Ex: Reverse("ABCD"); ==> DCBA
             reverseStr += str.charAt(i);  // concatenate and assigned to the reverseStr variable
         }
         System.out.println(reverseStr);  // print the result.
+
+
+        //Second way
+        String str2 = "this is my string";
+        String restr = "";
+        for (int i =0; i<str2.length(); i++ ){
+            char ch = str2.charAt(i);
+            restr = ch + restr;
+        }
+        System.out.println(restr);
     }
 
 }
