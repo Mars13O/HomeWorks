@@ -8,10 +8,13 @@ public class Array_findMinimum {
      */
 
     public static void main(String[] args) {
-        System.out.println(minNum(2,13,-7,0,7));
+
+        int[] arr = {2,13,-7,0,7};
+
+        System.out.println(minNum(arr));
     }
 
-    public static int minNum(int... arr){
+    public static int minNum(int[] arr){
         int min = arr[0];
 
         for(int each : arr){

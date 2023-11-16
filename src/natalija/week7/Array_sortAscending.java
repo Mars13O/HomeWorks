@@ -12,10 +12,13 @@ Ex: int[] arr = {10, 9, 8, 7};
      */
 
     public static void main(String[] args) {
-        System.out.println(Arrays.toString(sortAscending(10, 9, 8, 7)));
+
+        int[] arr = {10, 9, 8, 7};
+
+        System.out.println(Arrays.toString(sortAscending(arr)));
     }
 
-    public static int[] sortAscending(int... arr){
+    public static int[] sortAscending(int[] arr){
 
         for(int i = 0; i < arr.length; i++){
 
