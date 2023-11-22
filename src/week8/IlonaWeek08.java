@@ -23,7 +23,9 @@ public class IlonaWeek08 {
             sum += result[i];
         }
             result[N_number - 1] = -sum;
-        System.out.println(Arrays.toString(result));
+
+        System.out.println(Arrays.toString(result)); //print Array
+
         }
     }
 
