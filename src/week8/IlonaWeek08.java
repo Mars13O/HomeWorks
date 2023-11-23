@@ -9,6 +9,7 @@ public class IlonaWeek08 {
         int[] result = new int[N_number];
 
 
+
         if (!(N_number > 1 || N_number < 100)) {
             throw new IllegalArgumentException("N_number should be between 1 and 100");
         }
