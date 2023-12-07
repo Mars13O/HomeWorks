@@ -1,4 +1,4 @@
-package natalija.week9;
+package natalija.week09;
 
 import java.util.ArrayList;
 import java.util.Arrays;

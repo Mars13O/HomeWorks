@@ -1,4 +1,4 @@
-package natalija.week2;
+package natalija.week02;
 
 public class SwapTwoNumbers {
     public static void main(String[] args) {
