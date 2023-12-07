@@ -21,11 +21,11 @@ public class arrayListSortingInAscAC {
 
     private static void arrSort(ArrayList<Integer> arr){
 
-        int n = arr.size();
+        int num = arr.size();
 
-        for (int i = 0; i < n-1 ; i++) {
-            for (int j = 0; j < n-i-1 ; j++) {
-                if (arr.get(j) > arr.get(j+1)){
+        for (int i = 0; i < num-1 ; i++) {
+            for (int j = 0; j < num-i-1 ; j++) {
+                if (arr.get(j) > arr.get(j+1)){ // after this code line we get our result one by one
 
                     // swapping [j] and arr[j+1]
                     int z = arr.get(j);
