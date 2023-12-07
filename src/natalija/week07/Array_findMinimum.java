@@ -1,4 +1,4 @@
-package natalija.week7;
+package natalija.week07;
 
 public class Array_findMinimum {
 

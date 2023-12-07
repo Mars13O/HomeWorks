@@ -1,4 +1,4 @@
-package natalija.week6;
+package natalija.week06;
 
 public class SumOfDigitsInAString {
 

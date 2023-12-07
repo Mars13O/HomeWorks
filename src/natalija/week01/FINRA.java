@@ -1,4 +1,4 @@
-package natalija.week1;
+package natalija.week01;
 
 public class FINRA {
     public static void main(String[] args) {

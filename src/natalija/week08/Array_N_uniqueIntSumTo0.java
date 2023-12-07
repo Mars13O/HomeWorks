@@ -1,8 +1,6 @@
-package natalija.week8;
+package natalija.week08;
 
 import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
 
 public class Array_N_uniqueIntSumTo0 {
 
