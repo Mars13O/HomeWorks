@@ -21,10 +21,10 @@ public class arrayListSortingDescAC {
 
     private static void arrSort(ArrayList<Integer> arr){
 
-        int n = arr.size();
+        int num = arr.size();
 
-        for (int i = 0; i < n-1 ; i++) {
-            for (int j = 0; j < n-i-1 ; j++) {
+        for (int i = 0; i < num-1 ; i++) {
+            for (int j = 0; j < num-i-1 ; j++) {
                 if (arr.get(j) < arr.get(j+1)){ // here we did same steps like Asc t change to "<" to get Desc
 
                     // swapping [j] and arr[j+1]
