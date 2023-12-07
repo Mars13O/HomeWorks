@@ -17,6 +17,7 @@ public class ArrayList_sortingDESC {
         arrList.add("Tom");
         arrList.add("Petar");
         arrList.add("Mike");
+        arrList.add("Steven");
 
         System.out.println("Unsorted arrList = " + arrList);
 

@@ -47,6 +47,7 @@ public static void main(String[] args) {
     arrayList.add("Tom");
     arrayList.add("Petar");
     arrayList.add("Mike");
+    arrayList.add("Steven");
 
     System.out.println("Unsorted arrayList = " + arrayList);
 
