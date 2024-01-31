@@ -38,6 +38,8 @@ public class ArrayList_sortingInDedcending {
                     arrList.set(j + 1, temporary);
                 }
 
+                // new stuff
+
             }
         }
 
